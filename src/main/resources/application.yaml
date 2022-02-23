@@ -1,0 +1,12 @@
+server:
+  port: 5050
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5050/eureka
+    fetch-registry: false
+    register-with-eureka: false
+spring:
+  application:
+    name: SERVICE-DISCOVERY
